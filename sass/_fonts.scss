@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Arial';
+	src: 
+		url('../font/ArialMT.woff') format('woff'),
+		url('../font/ArialMT.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+	font-family: 'Arial-Bold';
+    src: 
+        url('../font/Arial-BoldMT.ttf') format('ttf'),
+		url('../font/Arial-BoldMT.woff') format('woff'),
+        url('../font/Arial-BoldMT.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+    display: swap;
+}

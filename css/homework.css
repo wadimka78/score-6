@@ -1,0 +1,30 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 570px;
+  height: 570px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: green url("../img/bg.png") no-repeat center;
+}
+
+.window {
+  max-width: 317px;
+  height: 368px;
+  background: #ffffff;
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=homework.css.map */
