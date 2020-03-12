@@ -25,7 +25,7 @@
 .window__title {
   position: absolute;
   left: 28px;
-  padding: 7px 12px 6px 9px;
+  padding: 8px 11px 7px 11px;
   top: -16px;
   color: #ffffff;
   font-size: 12px;
@@ -37,10 +37,7 @@
   text-transform: uppercase;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
-  border: 1px solid #dcdcdc;
   background-color: #01b3b3;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.24)), to(rgba(255, 255, 255, 0.24)));
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%);
 }
 
 .form {
