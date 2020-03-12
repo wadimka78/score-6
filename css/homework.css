@@ -108,8 +108,10 @@
   content: '';
   background: url("../img/snow.png") no-repeat center;
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 4px;
+  height: 4px;
+  left: 40px;
+  bottom: 6px;
 }
 
 .form__label:nth-of-type(1) {
