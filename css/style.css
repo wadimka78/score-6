@@ -75,8 +75,7 @@
 .form__button {
   position: absolute;
   bottom: 27px;
-  width: 262px;
-  margin-left: 1px;
+  width: 259px;
   color: #ffffff;
   font-size: 16px;
   padding: 12px 0px 13px 0px;
@@ -90,7 +89,7 @@
 }
 
 .form__input {
-  width: 258px;
+  width: 260px;
   height: 28px;
   background: url("../img/btn.png") no-repeat center;
   background-color: none;
@@ -123,8 +122,8 @@
   position: absolute;
   width: 4px;
   height: 4px;
-  left: 40px;
-  bottom: 6px;
+  left: 39px;
+  bottom: 8px;
 }
 
 .form__label:nth-of-type(1) {
@@ -136,8 +135,7 @@
 }
 
 .form__label:nth-of-type(2)::after {
-  left: 112px;
-  bottom: 7px;
+  left: 111px;
 }
 
 .form__label:nth-of-type(3) {
@@ -145,7 +143,6 @@
 }
 
 .form__label:nth-of-type(3)::after {
-  left: 109px;
-  bottom: 7px;
+  left: 108px;
 }
 /*# sourceMappingURL=style.css.map */
