@@ -97,10 +97,11 @@
   margin-top: 43px;
   color: #777777;
   font-family: "Arial MT";
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   font-style: italic;
   border-width: 1px;
+  text-indent: 13px;
 }
 
 .form__input:nth-of-type(1) {
