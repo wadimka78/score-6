@@ -7,19 +7,11 @@
 }
 
 @font-face {
-  font-family: 'Arial-Bold';
+  font-family: 'Arial - Bold MT';
   src: url("../font/Arial-BoldMT.ttf") format("ttf"), url("../font/Arial-BoldMT.woff") format("woff"), url("../font/Arial-BoldMT.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   display: swap;
-}
-
-html {
-  font-size: 10px;
-}
-
-body {
-  font-family: Arial;
 }
 
 .wrap {
@@ -35,11 +27,46 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: green url("../img/bg.png") no-repeat center;
+  font-family: 'Arial';
 }
 
 .window {
-  max-width: 317px;
-  height: 370px;
+  position: relative;
+  width: 317px;
+  height: 368px;
   background: #ffffff;
+  margin-bottom: 25px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__button {
+  position: absolute;
+  bottom: 28px;
+  width: 260px;
+  height: 46px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-family: "Arial - Bold MT";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+
+.form__input {
+  width: 257px;
+  height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
