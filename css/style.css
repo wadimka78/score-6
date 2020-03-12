@@ -37,8 +37,8 @@
   height: 368px;
   background: #ffffff;
   margin-bottom: 25px;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .window__title {
